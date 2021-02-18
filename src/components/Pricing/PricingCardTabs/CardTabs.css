@@ -1,0 +1,35 @@
+.mainBorder{
+    background-image: url('./Rectangle\ 2992.png');
+    border-radius: 10px;
+    width: 70%;
+    height: 40px;
+    display: flex;
+    padding: 0px 5px;
+    justify-content:space-between;
+    padding-top: 7px;
+}
+.firstCategory{
+    color: white!important;
+    width: 50%;
+    
+}
+.alignChange{
+    width: 100%;
+    display: flex;
+    justify-content: center!important;
+    
+}
+.firstCategoryDiv{
+    text-align: center;
+    width: 50%;
+}
+.innerBorder{
+    background-color: white!important;
+    height: 30px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    color: #0a2c66;
+    padding-top: 2px;
+    margin-top: -2px;
+}

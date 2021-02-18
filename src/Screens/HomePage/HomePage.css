@@ -1,0 +1,169 @@
+.headingsColumn{
+    padding-top: 10%;
+}
+
+.LoginButtons{
+    font-size: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    width: 100%;
+    
+}
+.dropDown{
+ display: flex;
+ justify-content: center;
+ box-shadow: 0px 0px 8px 1px rgba(209,209,209,0.76);
+padding: 1% 0%;
+max-width: 100%;
+}
+.feedbackBar{
+    margin-top: 5%; 
+    width: 90%;
+    padding: 10px;
+    font-family: AvenirText;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px -4px rgba(0,0,0,1);
+
+  }
+  .AllCvHeading{
+font-size: 30px;
+font-family: RobotoHeadingMedium;
+font-weight: 500;
+  }
+  .templeateHeadingInfo{
+font-family: AvenirTextBlack;
+font-size: 15px;
+  }
+  form .btn{
+    background-color: #0A2C66;
+    color: white !important;
+    font-size: 13px;
+    padding: 8px 15px;
+    font-family: RobotoHeading;
+  
+  }
+  
+@media only screen and (min-width: 900px) {
+    .headingsColumn{
+        text-align:left;
+        padding-left: 8%;
+        padding-right: 5%;
+    }
+    .professional{
+        color: #FF4309;
+        font-size:2em;
+        font-family: RobotoHeading;
+
+    }
+    .mainHeading{
+        color: #FFFFFF;
+        font-size:3vw;
+        font-family: RobotoHeading;
+    
+    }
+    .secondMainHeading{
+        color: #FFFFFF;
+        font-size: 2.5vw;
+        font-family: RobotoHeading;
+    }
+    .TitlePara{
+        font-size: 0.9vw;
+        margin-top: 10%;
+        color: #FFFFFF;
+        font-family: AvenirText;
+    }
+    .cvTitle{
+        font-size: 13px;
+        font-family: RobotoHeading;
+        font-weight:bolder!important;
+        margin-top: 50px;
+    }
+    .cvText{
+        font-size: 12px;
+        font-family: AvenirText;
+        margin-top: 20px;
+    }
+   .CreateCVTextHeading{
+       font-family: RobotoHeadingMedium;
+       font-size: 30px;
+       color: #FFFFFF!important;
+   }
+   .listItems{
+       font-family: AvenirText;
+       font-size: 10px;
+       color: #FFFFFF;
+       line-height: 25px;
+   }
+   
+.title{
+    background-image: url('./../../Assets/images/Path50309.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+ }
+  }
+ 
+
+  @media only screen and (max-width: 900px) {
+    .headingsColumn{
+        text-align:center;
+    }
+    .professional{
+        color: #FF4309;
+        font-size:1.8em;
+    }
+    .mainHeading{
+        color: #FFFFFF;
+        font-size: 2em;
+        font-family: RobotoHeading;
+
+    }
+    .secondMainHeading{
+        color: #FFFFFF;
+        font-size: 1.5em;
+        font-family: RobotoHeading;
+
+    }
+    .TitlePara{
+        font-size: 0.9em;
+        margin-top: 10%;
+        color: #FFFFFF;
+        font-family: AvenirText;
+    }
+    .title{
+        background-image: url('./../../Assets/images/Path50309.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+        background-size: 1000px;
+     }
+     .cvTitle{
+        font-size: 13px;
+        font-family: RobotoHeading;
+        font-weight:bolder!important;
+        margin-top: 50px;
+    }
+    .cvText{
+        font-size: 12px;
+        font-family: AvenirText;
+        margin-top: 20px;
+    }
+    .CreateCVTextHeading{
+        font-family: RobotoHeadingMedium;
+        font-size: 30px;
+        color: #FFFFFF!important;
+    }
+    .listItems{
+        font-family: AvenirText;
+        font-size: 10px;
+        color: #FFFFFF;
+        line-height: 25px;
+    }
+   
+  }
+
+
+  @media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 72%!important;
+  }}
